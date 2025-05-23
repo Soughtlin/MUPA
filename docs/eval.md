@@ -4,16 +4,11 @@ This document describes how to evaluate the MUPA models using our multipath eval
 
 ## 🛠 Environment Setup
 
-Ensure you have installed all dependencies as described in [TRAIN.md](docs/TRAIN.md).
+Ensure you have installed all dependencies as described in [train.md](train.md).
 
 ## 📚 Checkpoint Preparation
 
-Download and place the following checkpoints under `model_zoo/`:
-
-* `Qwen2-VL-2B-Instruct`
-* `Qwen2-VL-7B-Instruct`
-* `MUPA-2B`
-* `MUPA-7B`
+Download the [base models](https://huggingface.co/collections/Qwen/qwen2-vl-66cee7455501d7126940800d) and [MUPA checkpoints](https://huggingface.co/collections/soughtlin/mupa-683040ce74299f3194c89005), and place them into the `model_zoo` folder.
 
 Your directory should look like:
 
@@ -25,6 +20,7 @@ MUPA
    ├─ MUPA-2B
    └─ MUPA-7B
 ```
+
 
 ## 📦 Dataset Preparation
 
