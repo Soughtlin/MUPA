@@ -38,7 +38,7 @@ MUPA
 Supported benchmarks:
 
 * `nextgqa` (NExT-GQA)
-* `deveqa` (DeVE-QA)
+* `deve_qa` (DeVE-QA)
 * `activitynet_captions` (ActivityNet-Captions)
 * `tacos` (TACoS)
 * `activitynet_rtl` (ActivityNet-RTL)
