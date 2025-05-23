@@ -43,8 +43,6 @@ Supported benchmarks:
 * `tacos` (TACoS)
 * `activitynet_rtl` (ActivityNet-RTL)
 
-Refer to [datasets/README.md](datasets/README.md) for download and preprocessing commands.
-
 ## 🔮 Running Evaluation
 
 We provide two evaluation scripts that run the multi-path evaluation for 2B and 7B models respectively.
